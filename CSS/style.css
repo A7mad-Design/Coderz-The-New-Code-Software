@@ -1,0 +1,488 @@
+
+/*  header   */
+
+.header  {
+    
+    height: 130px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0px;
+    position: fixed;
+}
+
+.logo {
+    height: 5%;
+    width: 20%;
+    position: absolute;
+    padding: 14px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.header .navbar li {
+        display: inline-block;
+        
+        
+        width: 90px;
+        text-align: center;
+        font-weight: 900;
+        height: 30px;
+        border-radius: 6px;
+}
+
+.header .navbar li:hover {
+    background-color:aqua;
+    
+}
+
+
+.header .navbar {
+    width: 70%;
+    float:right;
+    list-style: none;
+    text-align: center;
+    padding-top: 3%;
+    margin-left: 20%;
+}
+
+.header .navbar a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: aliceblue;
+    
+    
+}
+
+
+.Download-Btn {
+    float: right;
+    
+    margin-bottom:1200 ;
+}
+
+.header-container{
+    position: relative;
+}
+
+.Download-Btn button {
+position: absolute;
+height: 50px;
+width: 150px;
+cursor: pointer;
+left: 1060px;
+top: 35px;
+border: 3px solid grey;
+background-color: lightblue;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+/* Home */
+
+.Home  {
+    
+    height: 900px;
+    
+    margin-top: -27px;
+    margin-bottom: 60px;
+} 
+
+body .img-haha{
+    background-image: url(../img/banner/code.png);
+    background-size: cover;
+    height: 790px;
+    
+}
+.Home{
+    width: 100%;
+    background-size: cover;
+}
+
+.Home-info {
+    width: 55% ;
+    height: 400px;
+    padding: 170px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+    margin-bottom: 0px;
+}
+
+.Home-info-title h1 {
+    font-size: 50pt;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.Home-info-par p {
+    font-size: 20pt;
+    font-family: sans-serif;
+    padding: 3px;
+    color:#ffffff;
+    font-weight: bolder;
+}
+
+.Home-info-btn button {
+    height: 50px;
+    width: 170px;
+    border: 0px;
+    background-color: rgb(57, 235, 237);
+    color: white;
+    font-size: 15pt;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.Home-info-btn button:hover {
+    background-color: #333333;
+    color: white;
+}
+
+
+
+    
+
+/*  About  */
+
+
+.About {
+    margin: 30px;
+    position: relative;
+    
+}
+
+.About-title {
+    text-align: center;
+    margin-top: 130px;
+    
+    left: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    
+    
+
+}
+
+.About-title h1 {
+    height: 60px;
+}
+
+.About-Info {
+    position: absolute;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.About-item {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-left: 05%;
+    margin-right: -5%;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.About-item img {
+    width: 90px;
+    height: 90px;
+}
+
+.About-item h2 {
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+}
+
+
+/* Features */
+
+.Features-container {
+    margin-top: 350px;
+    height: 400px;
+    background-color: #eeeeee;
+    padding-bottom: 100px;
+}
+.Features-info {
+    margin-left: 100px;
+    width: 50%;
+    padding-top: 70px;
+    float: left;
+    
+    display: inline-block;
+}
+
+.Features-container .Features-title {
+    padding-bottom: 40px;
+} 
+
+.Features-container .Features-title  {
+    font-size: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Features-desc {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.Features-img img {
+    height: 300px;
+    width: 500px;
+}
+
+.Features-img {
+   float: left;
+   padding-top: 90px;
+   display: inline-block;
+}
+@media (max-width:1095px) {
+    .Features-img {
+        float: right;
+        margin-top: -400px;
+        display: inline-block;
+        
+     }
+
+     .Features-info {
+        margin-left:20px;
+        width: 50%;
+        padding-top: 70px;
+        float: left;
+        
+        display: inline-block;
+     }
+}
+
+
+    
+@media (max-width:1216px) {
+    .Features-img {
+        float: right;
+        
+        display: inline-block;
+        
+     }
+
+     .Features-info {
+        margin-left:40px;
+        width: 50%;
+        padding-top: 70px;
+        float: left;
+        
+        display: inline-block;
+     }
+
+}
+
+
+/* Reviews */
+
+.Reviews-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/banner/code_programming_text_141192_3840x2400.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+.Reviews-items {
+    padding-left: 110px;
+    padding-top: 60px;
+}
+
+.Reviews-item {
+    width: 30%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.Reviews-item h1 {
+    font-family: cursive;
+    color: #ffffff;
+    font-size: 37px;
+    padding-bottom: 7px;
+    border: 3px solid aqua;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.Reviews-item p {
+    font-size: 25px;
+    font-family: cursive;
+    color: bisque;
+    border-bottom: aqua 4px solid;
+    border-right: solid 4px aqua;   
+}
+
+/* Prices */
+
+
+
+.Prices-title {
+    text-align: center;
+    width:40%;
+     margin-left: 30%;
+     
+
+}
+
+.Prices-title h1 {
+    font-size: 56px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    border-bottom: aqua solid 5px;
+    border-right: aqua solid 5px;
+    border-left: aqua solid 5px;
+    padding: 7px;
+}
+
+.Prices-items {
+    width: 100%;
+    
+    
+}
+
+.Prices-item {
+    width: 22%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    border: aqua solid 4px;
+    height: 350px;
+    margin: 20px;
+    margin-left: 80px;
+    
+    
+}
+
+.Prices-item h2 {
+    background-color: aqua;
+    height: 60px;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Prices-desc {
+    border: #444 solid 1px;
+    height: 230px;
+    width: 80%;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+.Prices-desc li {
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media (min-width:1400px) (max-width:1700px) {
+    .Prices-item {
+        width: 22%;
+        float: left;
+        display: inline-block;
+        text-align: center;
+        border: aqua solid 4px;
+        height: 350px;
+        margin: 20px;
+        margin-left: 100px;
+        
+        
+    }
+}
+/* Download */
+.Download {
+    background-color: aqua;
+    height: 300px;
+    margin-top: 600px;
+}
+
+.Download h1 {
+
+text-align: center;
+margin-top: -60px;
+padding: 10px;
+font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Download img {
+  width: 50%;
+  margin-top: -60px;
+  position: absolute;
+  margin-left: 25%;
+}
+
+
+/* Thanks */
+.thanks {
+    background-color: #111;
+    height: 370px;
+    bottom: 0;
+
+    width: 100%;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+}
+.thanks-content {
+    margin-top: 30px;
+}
+
+.thanks-title img {
+    height: 300px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: -310px;
+}
+
+.thanks-title {
+    padding: 10px;
+    margin-bottom: -00;
+    margin-top: -90px;
+}
+
+.btn-thanks {
+    height: 60px;
+    width: 60px;
+    background-color: #555fff;
+    cursor: pointer;
+    display: block;
+    border-radius: 8px;
+    margin-top: 250px;
+    margin-bottom: 10px;
+}
+
+.thanks i {
+    color: #fff;
+    text-align: center;
+    padding-top: 7px;
+    
+}
+
+.final {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
